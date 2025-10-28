@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ONG Solidaridade — Início</title>
+  <meta name="description" content="ONG Solidariedade — missão, projetos e como ajudar.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Ir para o conteúdo</a>
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <img src="assets/img/logo.svg" alt="Logotipo ONG Solidaridade" class="logo">
+    <nav aria-label="Menu principal">
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="container" role="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">Transformando vidas com ações locais</h1>
+    <p class="lead">Conheça nosso trabalho, participe como voluntário ou apoie nossas campanhas.</p>
+    <p><a class="btn" href="projetos.html">Ver projetos</a></p>
+  </section>
+
+  <section class="about" aria-labelledby="about-title">
+    <h2 id="about-title">Nossa missão</h2>
+    <p>Promover inclusão social e oferecer oportunidades por meio de educação, saúde e geração de renda.</p>
+
+    <figure aria-labelledby="impacto-title">
+      <figcaption id="impacto-title"><strong>Impacto 2024</strong></figcaption>
+      <ul>
+        <li>3.200 pessoas atendidas</li>
+        <li>120 voluntários ativos</li>
+        <li>R$ 150.000 captados</li>
+      </ul>
+    </figure>
+  </section>
+
+  <section class="multimedia" aria-labelledby="midia-title">
+    <h2 id="midia-title">Vídeo institucional</h2>
+    <p>Apresentação rápida da ONG (substitua o arquivo assets/media/intro.mp4 pelo vídeo real).</p>
+    <video controls width="640" height="360" aria-label="Vídeo institucional" poster="assets/img/projeto1.svg">
+      <source src="assets/media/intro.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo. Veja uma versão alternativa abaixo.
+    </video>
+    <!-- Inline SVG alternativa (conta como conteúdo multimídia para a entrega) -->
+    <figure>
+      <svg width="320" height="180" viewBox="0 0 320 180" role="img" aria-label="Ilustração animada">
+        <rect width="320" height="180" fill="#f8fafc"/>
+        <circle cx="40" cy="90" r="28" fill="#60a5fa"><animate attributeName="cx" values="40;280;40" dur="6s" repeatCount="indefinite"/></circle>
+        <text x="160" y="100" font-size="16" text-anchor="middle" fill="#111827">ONG Solidariedade</text>
+      </svg>
+    </figure>
+  </section>
+
+  <section class="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">Contato</h2>
+    <address>
+      <p>Rua Exemplo, 123 — Bairro — Cidade/UF</p>
+      <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+      <p>Email: <a href="mailto:contato@solidaridade.org">contato@solidaridade.org</a></p>
+    </address>
+  </section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <p>&copy; <span id="year"></span> ONG Solidaridade — Todos os direitos reservados.</p>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

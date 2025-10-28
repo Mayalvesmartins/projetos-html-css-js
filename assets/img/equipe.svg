@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Imagem da Equipe">
+  <rect width="800" height="450" fill="#eef2ff"/>
+  <g fill="#6366f1"><circle cx="160" cy="150" r="60"/><circle cx="400" cy="150" r="60"/><circle cx="640" cy="150" r="60"/></g>
+  <text x="400" y="320" font-family="Arial" font-size="24" text-anchor="middle" fill="#1f2937">Equipe em Ação</text>
+</svg>

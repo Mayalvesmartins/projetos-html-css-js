@@ -1,0 +1,13 @@
+.card{background:var(--color-white);border-radius:var(--radius);box-shadow:var(--shadow-1);overflow:hidden;border:1px solid rgba(0,0,0,0.04);transition:transform var(--transition),box-shadow var(--transition)}
+.card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(15,23,42,0.12)}
+.card img{width:100%;height:auto;display:block}
+.card-body{padding:var(--space-3)}
+.card-title{font-size:var(--font-size-lg);margin:0 0 var(--space-2);color:var(--color-primary-dark)}
+.card-desc{font-size:var(--font-size-sm);color:var(--color-gray)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:10px;border:0;background:var(--color-primary);color:var(--color-white);cursor:pointer;transition:transform var(--transition);box-shadow:0 6px 18px rgba(0,123,255,0.18)}
+.btn.secondary{background:transparent;border:1px solid rgba(255,255,255,0.12);color:var(--color-white)}
+.btn:hover{transform:translateY(-3px)}
+.badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(0,0,0,0.06);font-size:13px}
+.alert{padding:12px 16px;border-radius:10px;background:linear-gradient(90deg,#fff,#F7FBFF);border:1px solid rgba(0,0,0,0.04)}
+.modal-backdrop{position:fixed;inset:0;background:rgba(10,20,40,0.5);display:none;align-items:center;justify-content:center;padding:var(--space-3)}
+.modal{background:var(--color-white);max-width:720px;width:100%;border-radius:12px;padding:var(--space-4);box-shadow:0 20px 60px rgba(10,20,40,0.15)}

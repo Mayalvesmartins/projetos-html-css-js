@@ -1,0 +1,1 @@
+console.log('modal helper loaded');

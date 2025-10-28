@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Imagem do Projeto Educação">
+  <rect width="800" height="450" fill="#f3f4f6"/>
+  <circle cx="120" cy="120" r="80" fill="#fde68a"/>
+  <rect x="220" y="80" width="420" height="280" rx="10" fill="#bbf7d0"/>
+  <text x="400" y="240" font-family="Arial" font-size="28" text-anchor="middle" fill="#065f46">Projeto Educação Viva</text>
+</svg>
