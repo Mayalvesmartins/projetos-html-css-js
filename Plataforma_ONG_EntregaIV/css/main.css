@@ -1,0 +1,17 @@
+@import "variables.css";
+@import "layout.css";
+@import "components.css";
+@import "forms.css";
+
+/* hero */
+.hero{display:flex;align-items:center;gap:var(--space-4);padding:var(--space-4);background:linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0.3));border-radius:16px}
+.hero .hero-text h2{color:var(--color-primary-dark)}
+
+/* projects grid responsive */
+.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-3)}
+@media (max-width:1024px){.projects-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.projects-grid{grid-template-columns:repeat(1,1fr)}}
+
+/* small utilities */
+.text-center{text-align:center}
+.muted{color:var(--color-gray)}
